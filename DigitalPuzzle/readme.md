@@ -1,10 +1,14 @@
-## Weather application
+## DigitalPuzzle
 
-The layout of this application is based on the use of a LinearLayout. 
+This small game is to give a number between 1 and 100.
 
-Redesign the same application using a constraint-layout.
+The players guess it.
 
-Read more at https://developer.android.com/training/constraint-layout
+Every player has an initial score of 10,which will minus 1 when player guesses the wrong number.
 
-![Design](linear-layout.gif)
+Game over when the score is 0.
+
+Every time you guess wrong, you get a hint about the answer is bigger or smaller than random number.
+
+![DigitalPuzzle](DigitalPuzzle.gif)
 
